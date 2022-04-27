@@ -5,8 +5,9 @@ const Keyboard = () => {
   return (
     <div className="keyboard-container">
       <ol className="keyboard">
-        {keyList.map((key) => (
+        {keyList.map((key, index) => (
           <Key
+            key={index}
             text={key}
             action={() => {}}
             nameClass={typeof key === "number" ? "key" : "key big"}
