@@ -1,23 +1,50 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container">
+        {/* <!-- El siguiente elemento se oculta añadiéndole la clase "off" --> */}
+        <span className="message">Calling...</span>
+        <main className="phone">
+          <div className="keyboard-container">
+            <ol className="keyboard">
+              <li>
+                <button className="key">1</button>
+              </li>
+              <li>
+                <button className="key">2</button>
+              </li>
+              <li>
+                <button className="key">3</button>
+              </li>
+              <li>
+                <button className="key">4</button>
+              </li>
+              <li>
+                <button className="key">5</button>
+              </li>
+              <li>
+                <button className="key">6</button>
+              </li>
+              <li>
+                <button className="key">7</button>
+              </li>
+              <li>
+                <button className="key">8</button>
+              </li>
+              <li>
+                <button className="key">9</button>
+              </li>
+              <li>
+                <button className="key">0</button>
+              </li>
+              <li>
+                <button className="key big">delete</button>
+              </li>
+            </ol>
+          </div>
+          <div className="actions"></div>
+        </main>
+      </div>
     </div>
   );
 }
