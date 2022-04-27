@@ -13,11 +13,11 @@ function App() {
           <div className="actions">
             <span className="number">667359961</span>
 
-            <a href="#" className="call">
+            <a href="?call" className="call">
               Call
             </a>
 
-            <a href="#" className="hang active">
+            <a href="?hang" className="hang active">
               Hang
             </a>
           </div>
