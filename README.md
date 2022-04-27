@@ -45,5 +45,5 @@
 
 # Key
 
-- Renderiza un texto recibido.
+- Renderiza boton con un texto recibido.
 - Llama la funcion recibida.
