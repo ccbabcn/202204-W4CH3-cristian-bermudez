@@ -1,3 +1,4 @@
+import Actions from "./components/Actions/Actions";
 import Keyboard from "./components/Keyboard/Keyboard";
 
 function App() {
@@ -10,17 +11,7 @@ function App() {
           <div className="keyboard-container">
             <Keyboard />
           </div>
-          <div className="actions">
-            <span className="number">667359961</span>
-
-            <a href="?call" className="call">
-              Call
-            </a>
-
-            <a href="?hang" className="hang active">
-              Hang
-            </a>
-          </div>
+          <Actions />
         </main>
       </div>
     </div>
