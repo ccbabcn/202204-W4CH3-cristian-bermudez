@@ -20,10 +20,6 @@
 - Renderiza el componente Info.
 - Renderiza el componente Display.
 
-# Display
-
-- Renderiza un campo de numeros, y un texto recibido.
-
 # Info
 
 - Renderiza un texto recibido.
@@ -32,6 +28,10 @@
 
 - Renderiza un componente Action con el texto CALL y le pasa una accion segun el estado recibido.
 - Renderiza un componente Action con el texto HANG y le pasa una accion segun el estado recibido.
+
+# Display
+
+- Renderiza un campo de numeros, y un texto recibido.
 
 # Action
 
