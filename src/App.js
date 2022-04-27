@@ -1,3 +1,5 @@
+import Key from "./components/Key/Key";
+
 function App() {
   return (
     <div className="App">
@@ -7,6 +9,7 @@ function App() {
         <main className="phone">
           <div className="keyboard-container">
             <ol className="keyboard">
+              <Key text={5} action={() => {}} nameClass={"hola"} />
               <li>
                 <button className="key">1</button>
               </li>
